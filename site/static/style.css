@@ -1,0 +1,24 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#background {
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+}
+
+#debug {
+	position: absolute;
+	padding: 1rem;
+	width: 25%;
+
+	font-size: 1.25rem;
+	background-color: rgba(47, 79, 79, .75);
+	color: white;
+}
