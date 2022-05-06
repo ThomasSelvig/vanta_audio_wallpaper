@@ -1,0 +1,132 @@
+{
+	"contentrating" : "Everyone",
+	"file" : "index.html",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"audio_sensitivity" : 
+			{
+				"fraction" : true,
+				"index" : 5,
+				"max" : 100,
+				"min" : 0,
+				"order" : 105,
+				"precision" : 1,
+				"step" : 1,
+				"text" : "Audio sensitivity (inverse)",
+				"type" : "slider",
+				"value" : 25
+			},
+			"basecolor" : 
+			{
+				"condition" : "profile.value == 0",
+				"index" : 4,
+				"order" : 104,
+				"text" : "Base",
+				"type" : "color",
+				"value" : "0.8117647058823529 0.47058823529411764 1"
+			},
+			"blurfactor" : 
+			{
+				"fraction" : true,
+				"index" : 6,
+				"max" : 100,
+				"min" : 0,
+				"order" : 106,
+				"precision" : 1,
+				"step" : 1,
+				"text" : "Blur",
+				"type" : "slider",
+				"value" : 50
+			},
+			"debug" : 
+			{
+				"index" : 9,
+				"order" : 109,
+				"text" : "Debug",
+				"type" : "bool",
+				"value" : false
+			},
+			"highlightcolor" : 
+			{
+				"condition" : "profile.value == 0",
+				"index" : 1,
+				"order" : 101,
+				"text" : "Highlight",
+				"type" : "color",
+				"value" : "0.36470588235294116 0.42745098039215684 1"
+			},
+			"lowlightcolor" : 
+			{
+				"condition" : "profile.value == 0",
+				"index" : 3,
+				"order" : 103,
+				"text" : "Lowlight",
+				"type" : "color",
+				"value" : "0.34509803921568627 0 0.5176470588235295"
+			},
+			"midtonecolor" : 
+			{
+				"condition" : "profile.value == 0",
+				"index" : 2,
+				"order" : 102,
+				"text" : "Midtone",
+				"type" : "color",
+				"value" : "0.18823529411764706 0.24705882352941178 1"
+			},
+			"profile" : 
+			{
+				"fraction" : false,
+				"index" : 0,
+				"max" : 5,
+				"min" : 0,
+				"order" : 100,
+				"text" : "Profile (0 = custom colors, 1+ = predefined)",
+				"type" : "slider",
+				"value" : 0
+			},
+			"schemecolor" : 
+			{
+				"order" : 0,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0 0 0"
+			},
+			"speed" : 
+			{
+				"fraction" : true,
+				"index" : 7,
+				"max" : 1000,
+				"min" : 0,
+				"order" : 107,
+				"precision" : 1,
+				"step" : 1,
+				"text" : "Default speed",
+				"type" : "slider",
+				"value" : 130
+			},
+			"zoom" : 
+			{
+				"fraction" : true,
+				"index" : 8,
+				"max" : 300,
+				"min" : 30,
+				"order" : 108,
+				"precision" : 1,
+				"step" : 1,
+				"text" : "Zoom",
+				"type" : "slider",
+				"value" : 130
+			}
+		},
+		"supportsaudioprocessing" : true
+	},
+	"preview" : "preview.jpg",
+	"tags" : [ "Abstract" ],
+	"title" : "Vanta Ambience",
+	"type" : "web",
+	"version" : 1,
+	"workshopid" : "2804321790",
+	"workshopurl" : "steam://url/CommunityFilePage/2804321790"
+}
